@@ -6,6 +6,7 @@ class CreateJob < ActiveRecord::Migration[5.2]
       t.string :company, default: '', null: false
       t.text :description, default: '', null: false
       t.string :link, default: '', null: false
+      t.timestamps
     end
   end
 end
