@@ -21,6 +21,8 @@ ActiveRecord::Schema.define(version: 2019_08_08_144441) do
     t.string "company", default: "", null: false
     t.text "description", default: "", null: false
     t.string "link", default: "", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
